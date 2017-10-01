@@ -9,6 +9,8 @@ int main()
     if (n>20)
         return 0;
     while(n--){
+        if(c>1)
+            cout << endl;
         int m;
         cin >> m;
         if (m>10)
@@ -21,7 +23,8 @@ int main()
             if(!strcmp( str.c_str(), stdstr.c_str() ))
                 cnt++;
         }
-        cout<<"Case "<< c++ << ": " <<"This list contains "<<cnt <<" sheep."<<endl;
+        cout<<"Case "<< c++ << ": This list contains "<<cnt <<" sheep."<<endl;
+
     }
     return 0;
 }
