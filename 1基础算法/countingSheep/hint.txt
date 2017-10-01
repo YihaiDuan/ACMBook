@@ -1,0 +1,6 @@
+字符串匹配
+1 strcmp()函数
+要包含头文件cstring 或string.h
+参数要是字符串类型   int strcmp(char *str1， char *str2)；
+当str1>str2时，返回正数；当str1<str2时，负数；当str1=str2时，0。
+若有变量string str;做参数时则要转换  str.c_str()                                

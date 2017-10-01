@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1506857557 source:d:\chengxu\c++\c-learn\countingsheep\main.cpp
+	<iostream>
+	<cstring>
+
+1506858208 source:d:\chengxu\git\acmbook\1»ù´¡Ëã·¨\countingsheep\main.cpp
+	<iostream>
+	<string.h>
+
