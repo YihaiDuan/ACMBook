@@ -1,0 +1,56 @@
+1.有关cin.get(),cin.getline(),getline()的使用
+cin 
+遇到空格等停止
+cin.get()
+1接收字符 char ch =cin.get(); 或char ch; cin.get(ch)
+2接收固定数目字符 char a[20]; cin.get(a,20)
+3舍弃不需要字符  cin.get()
+cin.getline()
+char m[20]; cin.getline(m,5);
+第三个参数为结束字符，默认为'\0'  可cin.getline(m,5,'a');
+getline() 
+接收一个字符串，可以接受空格并输出，需包含#include <string>
+getline(cin,str);
+gets()
+接收一个字符串，可以接受空格并输出，需包含#include <string> #include <stdio.h>
+gets(m); 参数为char数组
+
+2 find()函数
+str.find('a');
+str.find('a',3);//3位从str[3]开始找
+str.find("add");
+str.find("add",3);
+str.find("add",3,2);找add的前两个字符 即ad
+找不到时返回-1
+
+3 repalce()函数
+str.replace(3,2,str2);
+str.replace(3,2,str2,1,2);
+str.replace(3,2,str2,1);
+str.replace(3,2,4,ch);
+
+4 substr()
+string s=str.substr(3);
+string s=str.substr(3,2);
+
+5
+文件读取
+c语言
+FILE *fp;
+fp=fopen("","");//后面参数为r,w,a,r+,w+,a+
+//读
+fscanf(fp,"%s",buff);//buff为char数组
+或
+fgets(buff,长度,(FILE*)fp);
+//写
+fprintf(fp,"",str);
+或
+fputs(str,fp);
+
+c++
+<fstream>
+istream fin;
+ostream fout;
+.open();
+6
+setw()在iomanip中

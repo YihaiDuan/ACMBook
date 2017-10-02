@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1506940749 source:d:\chengxu\c++\c-learn\vimsubstitute\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<stdio.h>
+	<fstream>
+
+1506942907 source:d:\chengxu\git\acmbook\1»ù´¡Ëã·¨\vimsubstitute\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<stdio.h>
+	<fstream>
+
