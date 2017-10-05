@@ -1,0 +1,6 @@
+利用堆栈实现四则运算
+1、创建字符串栈和符号栈，利用cmp_op函数对符号的优先级进行比较，从而判断是入栈还是出栈。
+2、append（）函数使用  
+str.append(str1);
+str.append(str1,3,2);
+str.append(5,ch);
