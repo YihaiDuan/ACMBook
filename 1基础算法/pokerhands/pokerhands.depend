@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506946174 source:d:\chengxu\c++\c-learn\pokerhands\main.cpp
+	<iostream>
+	<algorithm>
+
