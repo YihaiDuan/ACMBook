@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1507214851 source:d:\chengxu\c++\c-learn\theoverallgpa\main.cpp
+	<iostream>
+	<algorithm>
+	<iomanip>
+
+1507277197 source:d:\chengxu\git\acmbook\1»ù´¡Ëã·¨\theoverallgpa\main.cpp
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<cstring>
+
