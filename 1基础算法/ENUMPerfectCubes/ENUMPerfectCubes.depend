@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507289968 source:d:\chengxu\c++\c-learn\enumperfectcubes\main.cpp
+	<iostream>
+	<math.h>
+
