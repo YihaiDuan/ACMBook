@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508503317 source:d:\chengxu\c++\c-learn\practise\train order\main.cpp
+	<iostream>
+	<algorithm>
+

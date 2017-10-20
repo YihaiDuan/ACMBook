@@ -1,0 +1,2 @@
+1、使用next_permutation(a,a+n)生成序列
+2、运用枚举的方法判断顺序是否正确，与Rails题目类似
